@@ -30,7 +30,11 @@
       "@type": "HairSalon",
       "@id": "#salon",
       "name": "The Stylist Unisex Salon",
-      "description": "A unisex hair and beauty salon in Sector 52, Gurugram, specialising in haircuts, chemical hair treatments, colour, hair spa, skin care and grooming for women and men.",
+      "description": "A unisex hair and beauty salon with locations in Sector 52 and Sector 51, Gurugram, specialising in haircuts, chemical hair treatments, colour, hair spa, skin care and grooming for women and men.",
+      "sameAs": [
+        "https://www.instagram.com/the_stylist_52/",
+        "https://www.facebook.com/thestylist52"
+      ],
       "telephone": "+91-81781-59945",
       "priceRange": "₹₹",
       "address": {
@@ -45,6 +49,10 @@
         {
           "@type": "Place",
           "name": "Sector 52, Gurugram"
+        },
+        {
+          "@type": "Place",
+          "name": "Sector 51, Gurugram"
         },
         {
           "@type": "City",
@@ -179,6 +187,34 @@
       }
     },
     {
+      "@type": "HairSalon",
+      "@id": "#salon-sector-51",
+      "name": "The Stylist Unisex Salon - Sector 51",
+      "parentOrganization": { "@id": "#salon" },
+      "telephone": "+91-81781-59945",
+      "priceRange": "\u20b9\u20b9",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Ground Floor, The Arzoo Apartments, Sector 51",
+        "addressLocality": "Gurugram",
+        "addressRegion": "Haryana",
+        "addressCountry": "IN"
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "11:00",
+        "closes": "21:00"
+      }
+    },
+    {
       "@type": "FAQPage",
       "@id": "#faq",
       "mainEntity": [
@@ -187,7 +223,7 @@
           "name": "Where is The Stylist Unisex Salon in Gurugram?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The salon is at Shop No. 86, High Street 52, Sector 52, Gurugram, Haryana 122003, directly opposite Artemis Hospital. Finding us Use Artemis Hospital as the landmark and look for High Street 52 on the opposite side. Before leaving Call 81781 59945 if you need help locating the shop or want to confirm that a longer service window is available. Planning time Arrive a little before a chemical treatment or colour appointment so the consultation does not reduce the time reserved for the service."
+            "text": "The salon is at Shop No. 86, High Street 52, Sector 52, Gurugram, Haryana 122003, directly opposite Artemis Hospital, with a second location at Ground Floor, The Arzoo Apartments, Sector 51, Gurugram. Finding us Use Artemis Hospital as the landmark and look for High Street 52 on the opposite side. Before leaving Call 81781 59945 if you need help locating the shop or want to confirm that a longer service window is available. Planning time Arrive a little before a chemical treatment or colour appointment so the consultation does not reduce the time reserved for the service."
           }
         },
         {
@@ -1388,9 +1424,9 @@
   <main id="main">
     <section class="hero">
       <div class="hero-copy">
-        <p class="brand-line"><span class="brand-name">The Stylist</span><span>Unisex Salon · Sector 52</span></p>
+        <p class="brand-line"><span class="brand-name">The Stylist</span><span>Unisex Salon · Sector 52 and 51, Gurugram</span></p>
         <h1>Considered care.<br>Beautiful results.</h1>
-        <p>A premium unisex hair and beauty salon in Sector 52, Gurugram. Visit for precision haircuts, chemical hair treatments, colour, hair spa, skin care and everyday grooming, all opposite Artemis Hospital.</p>
+        <p>A premium unisex hair and beauty salon in Sector 52, Gurugram, with a second location in Sector 51. Visit for precision haircuts, chemical hair treatments, colour, hair spa, skin care and everyday grooming, all opposite Artemis Hospital.</p>
         <div class="actions">
           <a class="button" href="tel:+918178159945">Call 81781 59945</a>
           <a class="button secondary" href="#treatments">Explore treatments ↓</a>
@@ -1413,7 +1449,7 @@
     <div class="strip" aria-label="Salon highlights"><div class="strip-inner">
       <span><strong>Open Wed to Mon</strong> · 11 AM to 9 PM · closed Tuesdays</span>
       <span><strong>Walk-ins</strong> welcome</span>
-      <span><strong>Women and men</strong> · one address</span>
+      <span><strong>Men and women</strong> - one-stop beauty, skincare and styling destination</span>
       <span><strong>Opposite</strong> Artemis Hospital</span>
     </div></div>
 
@@ -1593,7 +1629,7 @@
     <section class="local-section" aria-labelledby="local-heading">
       <p class="eyebrow">Hair salon in Sector 52, Gurugram</p>
       <h2 id="local-heading">Detailed salon care, opposite Artemis Hospital.</h2>
-      <p>The Stylist Unisex Salon is at Shop No. 86, High Street 52, Sector 52, Gurugram. The location is directly opposite Artemis Hospital and is open Wednesday to Monday from 11 AM to 9 PM, closed on Tuesdays. Visit for a haircut, hair spa, colour consultation, chemical hair treatment, skin care or grooming service.</p>
+      <p>The Stylist Unisex Salon is at Shop No. 86, High Street 52, Sector 52, Gurugram, directly opposite Artemis Hospital, and at Ground Floor, The Arzoo Apartments, Sector 51, Gurugram. Both locations are open Wednesday to Monday from 11 AM to 9 PM, closed on Tuesdays. Visit for a haircut, hair spa, colour consultation, chemical hair treatment, skin care or grooming service.</p>
       <div class="local-grid">
         <article class="local-point"><h3>Nanoplastia in Sector 52</h3><p>Ask about the current ₹2,499 offer and whether the service fits your hair history, current condition and desired finish.</p></article>
         <article class="local-point"><h3>Keratin and smoothening in Gurugram</h3><p>Compare frizz control, natural movement and straighter finishes with a stylist before selecting the treatment.</p></article>
@@ -1610,7 +1646,7 @@
       <div><div class="big">40%</div><small>OFF ALL SERVICES</small></div>
     </section>
 
-    <section class="reviews" aria-labelledby="reviews-heading"><div class="reviews-inner"><p class="eyebrow">Google reviews</p><h2 id="reviews-heading">Rated 4.8 by our clients.</h2><div class="reviews-summary"><span class="reviews-score">4.8</span><span class="reviews-stars" role="img" aria-label="Rated 4.8 out of 5 stars">★★★★★</span><span class="reviews-count">Based on 55 Google reviews</span></div><div class="reviews-grid"><figure class="review-card"><span class="reviews-stars" role="img" aria-label="5 out of 5 stars">★★★★★</span><blockquote>Excellent service! Specially love their pedicure and facial services. Will definitely visit again.</blockquote><figcaption>arushi bora · Google review</figcaption></figure><figure class="review-card"><span class="reviews-stars" role="img" aria-label="4 out of 5 stars">★★★★☆</span><blockquote>Nice place. Decent pricing. Quality service. Overall good experience</blockquote><figcaption>Akshay Kapai · Google review</figcaption></figure><figure class="review-card"><span class="reviews-stars" role="img" aria-label="5 out of 5 stars">★★★★★</span><blockquote>Great services</blockquote><figcaption>manvi joshi · Google review</figcaption></figure></div><a class="button" href="https://www.google.com/maps/place/The+Stylist+Unisex+Salon/@28.4348044,77.0715513,17z/data=!3m1!4b1!4m6!3m5!1s0x390d19f677517555:0xa80ff712eb0e6613!8m2!3d28.4348044!4d77.0715513!16s%2Fg%2F11yww02svr" target="_blank" rel="noopener">Read all reviews on Google</a></div></section><section class="visit" id="visit">
+    <section class="reviews" aria-labelledby="reviews-heading"><div class="reviews-inner"><p class="eyebrow">Google reviews</p><h2 id="reviews-heading">Rated 4.8 by our clients.</h2><div class="reviews-summary"><span class="reviews-score">4.8</span><span class="reviews-stars" role="img" aria-label="Rated 4.8 out of 5 stars">★★★★★</span><span class="reviews-count">Based on 55 Google reviews · Updated September 2026</span></div><div class="reviews-grid"><figure class="review-card"><span class="reviews-stars" role="img" aria-label="5 out of 5 stars">★★★★★</span><blockquote>Excellent service! Specially love their pedicure and facial services. Will definitely visit again.</blockquote><figcaption>arushi bora · Google review</figcaption></figure><figure class="review-card"><span class="reviews-stars" role="img" aria-label="4 out of 5 stars">★★★★☆</span><blockquote>Nice place. Decent pricing. Quality service. Overall good experience</blockquote><figcaption>Akshay Kapai · Google review</figcaption></figure><figure class="review-card"><span class="reviews-stars" role="img" aria-label="5 out of 5 stars">★★★★★</span><blockquote>Great services</blockquote><figcaption>manvi joshi · Google review</figcaption></figure></div><a class="button" href="https://www.google.com/maps/place/The+Stylist+Unisex+Salon/@28.4348044,77.0715513,17z/data=!3m1!4b1!4m6!3m5!1s0x390d19f677517555:0xa80ff712eb0e6613!8m2!3d28.4348044!4d77.0715513!16s%2Fg%2F11yww02svr" target="_blank" rel="noopener">Read all reviews on Google</a></div></section><section class="visit" id="visit">
       <div class="visit-art" aria-hidden="true">
         <svg viewBox="0 0 360 360">
           <path d="M180 42c-52 0-94 41-94 93 0 75 94 179 94 179s94-104 94-179c0-52-42-93-94-93Z" fill="none" stroke="currentColor" stroke-width="5"/>
@@ -1638,7 +1674,7 @@
     <section class="faq" id="faq" aria-labelledby="faq-heading">
       <div class="faq-head">
         <div><p class="eyebrow">Detailed answers</p><h2 id="faq-heading">Everything to know before you book.</h2></div>
-        <p>Browse by topic. Each answer is written to help you compare services, prepare for consultation and plan your visit to Sector 52.</p>
+        <p>Browse by topic. Each answer is written to help you compare services, prepare for consultation and plan your visit to Sector 52 or Sector 51.</p>
       </div>
       <div class="faq-tools" role="group" aria-label="Filter frequently asked questions">
         <button class="faq-filter" type="button" data-filter="all" aria-pressed="true">All questions</button>
@@ -1652,7 +1688,7 @@
       <div class="faq-list">
         <section class="faq-group" data-category="visit" aria-labelledby="faq-visit">
           <h3 class="faq-group-title" id="faq-visit">Visit and booking</h3>
-          <details class="faq-item"><summary>Where is The Stylist Unisex Salon in Gurugram?</summary><div class="faq-answer"><p class="answer-lead">The salon is at Shop No. 86, High Street 52, Sector 52, Gurugram, Haryana 122003, directly opposite Artemis Hospital.</p><dl class="answer-spec"><div><dt>Finding us</dt><dd>Use Artemis Hospital as the landmark and look for High Street 52 on the opposite side.</dd></div><div><dt>Before leaving</dt><dd>Call 81781 59945 if you need help locating the shop or want to confirm that a longer service window is available.</dd></div><div><dt>Planning time</dt><dd>Arrive a little before a chemical treatment or colour appointment so the consultation does not reduce the time reserved for the service.</dd></div></dl></div></details>
+          <details class="faq-item"><summary>Where is The Stylist Unisex Salon in Gurugram?</summary><div class="faq-answer"><p class="answer-lead">The salon is at Shop No. 86, High Street 52, Sector 52, Gurugram, Haryana 122003, directly opposite Artemis Hospital, with a second location at Ground Floor, The Arzoo Apartments, Sector 51, Gurugram.</p><dl class="answer-spec"><div><dt>Finding us</dt><dd>Use Artemis Hospital as the landmark and look for High Street 52 on the opposite side.</dd></div><div><dt>Before leaving</dt><dd>Call 81781 59945 if you need help locating the shop or want to confirm that a longer service window is available.</dd></div><div><dt>Planning time</dt><dd>Arrive a little before a chemical treatment or colour appointment so the consultation does not reduce the time reserved for the service.</dd></div></dl></div></details>
           <details class="faq-item"><summary>What are the salon opening hours?</summary><div class="faq-answer"><p class="answer-lead">The Stylist Unisex Salon is open Wednesday to Monday from 11 AM to 9 PM, and closed on Tuesdays.</p><dl class="answer-spec"><div><dt>Short services</dt><dd>Haircuts, threading and other everyday grooming may be available for walk-ins, subject to the queue.</dd></div><div><dt>Long services</dt><dd>Colour, Nanoplastia, keratin, smoothening, rebonding, lightening and perms need a larger service window, so book before visiting.</dd></div><div><dt>Last appointments</dt><dd>Call ahead for any multi-hour service because the practical last-start time depends on the treatment and your hair.</dd></div></dl></div></details>
           <details class="faq-item"><summary>Do I need an appointment, or can I walk in?</summary><div class="faq-answer"><p class="answer-lead">Walk-ins are welcome, but an appointment is the better choice when the service needs consultation, product preparation or several hours.</p><dl class="answer-spec"><div><dt>Walk in for</dt><dd>Simple cuts, styling and routine grooming can often be handled as walk-ins when a stylist is free.</dd></div><div><dt>Book ahead for</dt><dd>Chemical treatments, colour corrections, highlights, balayage, perms, facials and occasion styling should be reserved.</dd></div><div><dt>Share first</dt><dd>When calling, mention hair length, density, recent colour or chemical work and the result you want so the right amount of time can be held.</dd></div></dl></div></details>
           <details class="faq-item"><summary>How do I book and what information should I share?</summary><div class="faq-answer"><p class="answer-lead">Call <a href="tel:+918178159945">81781 59945</a> during salon hours and name the service or result you are considering.</p><dl class="answer-spec"><div><dt>For hair</dt><dd>Share length, density, natural texture, current colour, recent bleach, henna and every smoothing or straightening service.</dd></div><div><dt>For skin</dt><dd>Mention sensitivity, active irritation, recent peels or clinical procedures and products that have caused a reaction.</dd></div><div><dt>Confirmation</dt><dd>Ask for the expected service window, preparation advice, consultation requirement and whether the quoted price is fixed or subject to an in-person assessment.</dd></div></dl></div></details>
@@ -1724,7 +1760,7 @@
     </section>
   </main>
 
-  <footer><div class="footer-inner"><strong><span class="brand-name">The Stylist</span> Unisex Salon</strong><span>Hair · skin · grooming · Sector 52, Gurugram</span></div></footer>
+  <footer><div class="footer-inner"><strong><span class="brand-name">The Stylist</span> Unisex Salon</strong><span>Hair · skin · grooming · Sector 52 and Sector 51, Gurugram</span></div></footer>
 
   <script>
     (function () {

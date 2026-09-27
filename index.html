@@ -1371,7 +1371,8 @@
       .strip-inner { animation: none; transform: none; padding-left: 18px; flex-wrap: wrap; width: 100%; white-space: normal; }
       .service::after, .service { transition: none; }
     }
-  </style>
+  
+      /* Mobile text fixes (2026-09-27): keep promo badge in viewport, legible 40% figures, clean chips and headings */     @media (max-width: 860px) {       .offer-tag { left: 8px; right: auto; }       .offer-tag strong { font-weight: 600; }       .offer .big { font-weight: 600; letter-spacing: -.03em; }       .amenities { gap: 10px; }       .amenities span { flex: 0 0 auto; }       .visit-copy h2 { font-size: clamp(2.6rem, 12vw, 3.8rem); line-height: 1.02; }       .answer-intro h2 { line-height: 1.08; letter-spacing: -.03em; }     }   </style>
 </head>
 <body>
   <nav class="nav" aria-label="Main navigation">
